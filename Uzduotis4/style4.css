@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.konteineris {
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* justify-content: space-between; */
+    align-items: flex-start;
+   
+    border: 1px solid silver;
+    /* height: 300px; */
+    width: 900px;
+    padding: 0px;
+}
+
+
+.virsus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 237, 125);
+    background-color: #12205a;
+    border: 1px solid #12205a;
+    padding: 0.5em;
+    height: 60px;
+    width: 100%;
+}
+
+.meniu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+
+}
+
+.mygtukas {
+    height: 20px;
+    width: 15%;
+    background-color: rgb(233, 218, 190);
+    border: 1px solid rgb(233, 218, 190);
+    
+}
+.mygtuko-nuoroda {
+    display: block;
+    /* padding: 0.5em; */
+}
