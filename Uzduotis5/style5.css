@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.virsus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgba(192, 152, 7, 0.609);   
+    padding: 0.5em;
+    height: 100px;
+    width: 100%;
+}
+
+.meniu {
+    display: flex;
+    height: 80px;
+    background-color: rgb(173, 171, 171);
+    border: 5px black;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.mygtukas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black ;
+    flex-grow: 1;
+}
+
+.mygtukas-apatinis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(189, 184, 184);
+    border: 2px solid black ;
+    flex-grow: 1;
+}
+
+.mygtuko-nuoroda {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(137, 107, 0, 0.609);
+    display: block;
+    width: 100%;
+    line-height: 47px;
+    text-align: center;
+}
+
+.mygtuko-apatinio-nuoroda {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.pav-ir-teksto-wraperis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100, 100, 97);
+    height: inherit;
+    padding: 20px;
+
+
+
+}
+
+.picture-box {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    /* flex-grow: 3; */
+    width: 32%;
+    height: 95%; 
+    
+    padding: 20px;
+}
+
+.picture {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 30%;
+    object-fit: contain; 
+    
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    height: 200px;
+
+}
+
+
+
+.footeris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: whitesmoke;
+    background-color:rgba(192, 152, 7, 0.609);
+}
