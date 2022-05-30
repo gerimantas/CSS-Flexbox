@@ -49,7 +49,10 @@
     width: 100%;
     background-color: rgb(189, 184, 184);
     border: 2px solid black ;
-    /* flex-grow: 1; */
+}
+
+.mygtukas-apatinis:hover {
+    background-color: rgb(226, 216, 160);
 }
 
 .mygtuko-nuoroda {

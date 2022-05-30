@@ -16,7 +16,7 @@
 .pilkas-fonas {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-grow: 1;
     width: 98px;
     height: 100px;
@@ -27,7 +27,7 @@
 .zalias-fonas {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-grow: 1;
     width: 98px;
     height: 100px;
@@ -50,7 +50,7 @@
 .text {
     
     color: whitesmoke;
-    /* vertical-align: middle; */
-    font-size: 50px;
-    vertical-align: text-bottom;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
 }
