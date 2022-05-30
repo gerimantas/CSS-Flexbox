@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.raidziu-wraperis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 820px;
+    height: 533px;
+    border: 5px solid silver;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.pilkas-fonas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+    width: 98px;
+    height: 100px;
+    background-color: darkgray;
+    color: whitesmoke;
+    font-size: 50px;
+    border-style: ridge;
+}
+
+.zalias-fonas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+    width: 98px;
+    height: 100px;
+    background-color: rgb(6, 142, 20);
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: justify;
+    border-style: ridge;
+}
+
+.blank {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+    width: 98px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-style: ridge;
+   
+}
