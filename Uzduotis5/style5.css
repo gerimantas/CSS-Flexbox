@@ -37,6 +37,10 @@
     flex-grow: 1;
 }
 
+.mygtukas:hover {
+    background-color: rgb(220, 219, 198);
+}
+
 .mygtukas-apatinis {
     display: flex;
     justify-content: center;
@@ -99,6 +103,10 @@
     align-items: flex-start;
     width: 100%;
     flex-grow: 2;
+}
+
+p:hover {
+    font-size: 20px;
 }
 
 .footeris {
