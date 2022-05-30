@@ -21,8 +21,6 @@
     width: 98px;
     height: 100px;
     background-color: darkgray;
-    color: whitesmoke;
-    font-size: 50px;
     border-style: ridge;
 }
 
@@ -34,9 +32,6 @@
     width: 98px;
     height: 100px;
     background-color: rgb(6, 142, 20);
-    color: whitesmoke;
-    font-size: 50px;
-    text-align: justify;
     border-style: ridge;
 }
 
@@ -50,4 +45,12 @@
     background-color: rgb(255, 255, 255);
     border-style: ridge;
    
+}
+
+.text {
+    
+    color: whitesmoke;
+    /* vertical-align: middle; */
+    font-size: 50px;
+    vertical-align: text-bottom;
 }
