@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(7, 66, 192, 0.609);
+    padding: 20px 10px 20px 10px; 
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.miestai {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 300px;
+    color: white;
+    font-size: 10px
+
+}
+
+.quick-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-nav-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    gap: 8px;
+    border-right: 1px solid white;
+
+}
+
+.quick-nav-1-link {
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.navigation-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+    
+}
+
+.navigation-1-link {
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+    
+}
+
+.main-nav-buton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+    width: 20%;
+    border: 1px solid rgb(50, 50, 253);
+}
+
+.main-nav-buton-link {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
