@@ -37,6 +37,10 @@
     flex-grow: 1;
 }
 
+.pakeistas-mygtukas.mygtukas-apatinis {
+    background-color: rgb(11, 179, 11);
+}
+
 .mygtukas:hover {
     background-color: rgb(220, 219, 198);
 }

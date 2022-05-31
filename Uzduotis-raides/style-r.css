@@ -20,7 +20,7 @@
     flex-grow: 1;
     width: 98px;
     height: 100px;
-    background-color: darkgray;
+    background-color: rgb(125, 123, 123);
     border-style: ridge;
 }
 
