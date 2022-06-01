@@ -117,3 +117,80 @@
     font-size: 12px;
     color: white;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    border-color: white;
+    border: 100px;
+    padding: 20px 0px 10px 0px;
+}
+
+.hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("academics-hero.jpg");
+    width: 100%;  
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text-1 {
+    display: flex;
+    justify-content: center;
+    width: 150%;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    border-top: 1px solid white;  
+}
+
+.hero-text-2 {
+    display: flex;
+    justify-content: center;
+    width: 150%;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-bottom: 1px solid white;   
+}
+
+.slogan {
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    background-color: green;
+    padding: 10px;
+}
+
+.slogan-left-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+.slogan-right-text {
+    display: flex;
+    font-size: 15px;
+    color: white;
+    width: 60%;
+}
+    
