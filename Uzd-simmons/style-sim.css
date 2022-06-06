@@ -66,16 +66,16 @@
 
 .navigation {
     display: flex;
-    flex-direction: row;
-    flex-basis: 50px;
-    /* justify-content: flex-end; */
+    /* flex-direction: row; */
+    /* flex-basis: 50px; */
+    justify-content: flex-end;
     align-items: center;
     
 }
 
 .navigation-1 {
     display: flex;
-    justify-content: flex-end;;
+    justify-content: flex-end;
     align-items: center;
     
     border: 1px solid white;
@@ -88,8 +88,8 @@
 }
 
 .navigation-1-link {
-    display: block;
-    width: 100%;
+    display: flex;
+    /* width: 100%; */
     /* line-height: 20px; */
     text-decoration: none;
     text-align: center;
